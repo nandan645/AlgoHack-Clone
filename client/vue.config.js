@@ -1,5 +1,5 @@
 const path = require('path');
-const variable=require('dotenv').config({path: '../.env'});
+const variable=require('dotenv').config({path: '../.env'}); console.log(variable);
 module.exports = {
   outputDir: path.resolve(__dirname, '../server/public'),
   devServer: {
